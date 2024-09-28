@@ -1,0 +1,24 @@
+/* Reset default margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#gameCanvas {
+  background-color: #222;
+  border: 2px solid white;
+  display: block;
+  margin: 0 auto;
+}
